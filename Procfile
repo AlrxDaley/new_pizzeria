@@ -1,0 +1,1 @@
+web: gunicorn --pythonpath pizzeria_app pizzeria_app.wsgi --log-file -
