@@ -134,7 +134,7 @@ USE_TZ = True
 MEDIA_URL = "/media/"
 DEFAULT_FILE_STORAGE = "cloudinary_storage.storage.MediaCloudinaryStorage"
 
-STATIC_URL = "/static/"
+STATIC_URL = "pizzeria_app/static/"
 STATICFILES_STORAGE = "cloudinary_storage.storage.StaticHashedCloudinaryStorage"
 STATICFILES_DIRS = [
     BASE_DIR / "static",
