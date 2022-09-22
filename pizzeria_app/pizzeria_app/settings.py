@@ -139,7 +139,10 @@ STATIC_URL = "static/"
 
 # Enable WhiteNoise's GZip compression of static assets.
 # STATICFILES_STORAGE = "whitenoise.storage.CompressedManifestStaticFilesStorage"
-
+STATICFILES_DIRS = [
+    os.path.join(BASE_DIR, "board", "static"),
+    os.path.join(BASE_DIR, "static"),
+]
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.0/ref/settings/#default-auto-field
