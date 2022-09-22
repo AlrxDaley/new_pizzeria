@@ -137,7 +137,7 @@ DEFAULT_FILE_STORAGE = "cloudinary_storage.storage.MediaCloudinaryStorage"
 STATIC_URL = '/static/'
 STATICFILES_DIR = [BASE_DIR / "static"]
 STATIC_ROOT = BASE_DIR / "static"
-STARICFILES_STORAGE = "django.contrib.staticfiles.storage.StaticFilesStorage"
+STATICFILES_STORAGE = "django.contrib.staticfiles.storage.StaticFilesStorage"
 
 STATICFILES_FINDER = [
     'django.contrib.staticfiles.finders.FileSystemFinder',
